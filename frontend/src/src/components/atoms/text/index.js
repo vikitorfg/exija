@@ -1,12 +1,8 @@
-import react from "react";
+import React from "react";
 import "./styles.css";
 
-const Text = ({ text, type, gutterBotton }) => {
-  return (
-    <p className={`text ${type} ${gutterBottom ? "gutterBottom" : ""}`}>
-      {text}
-    </p>
-  );
+const Text = ({ text, type }) => {
+  return <p className={`text ${type}`}>{text}</p>;
 };
 
 export default Text;

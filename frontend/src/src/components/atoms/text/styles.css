@@ -1,0 +1,29 @@
+.title {
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 800;
+  line-height: 1.09;
+  letter-spacing: -0.7px;
+}
+
+.author {
+  font-weight: 700;
+  line-height: 1.23;
+  font-size: 0.8125rem;
+  font-family: aktiv-grotesk, sans-serif;
+}
+
+.date {
+  color: #777;
+  font-size: 0.8125rem;
+  font-family: aktiv-grotesk, sans-serif;
+  line-height: 1.54;
+}
+
+.content {
+  font-size: 0.875rem;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.43;
+  color: #777;
+}

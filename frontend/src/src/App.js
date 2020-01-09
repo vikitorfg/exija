@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
+import Frontpage from "./components/pages/Frontpage.js";
 
 class App extends Component {
-  state = {};
-
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <Frontpage />
+      </div>
+    );
   }
 }
 
